@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(363deg, #000000 0%, #ffffff 74%);
+}
+header{
+    
+    background-image: linear-gradient(179deg, #000000 0%, #ffffff 74%);
+    
+}
+header img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 78px;
+    width: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    margin: auto;
+    padding: 26px;
+    margin-bottom: 40px;
+    
+}
+.fab{
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.inst{
+    margin-right: 30px;
+    width: 40px;
+    height: 40px; 
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;  
+}
+.whats{
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;  
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.whats:hover{
+    
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+       
+}
+.inst:hover{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+}
+.fab:hover{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2); 
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 908px;
+    height: 500px;
+    margin: auto;
+    
+  
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+}
+div{
+    margin-top: 40px;
+}
+main div.porction{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    width: 184px;
+    height: 96px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.1em;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+main div.porction:hover{
+    -webkit-transform: scale(1.2);
+        transform: scale(1.2); 
+
+}
+main div.juice{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    width: 184px;
+    height: 96px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.1em;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+main div.juice:hover{
+    -webkit-transform: scale(1.2);
+        transform: scale(1.2); 
+
+}
+main div.food{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    background-color: #000000 ;
+    width: 184px;
+    height: 96px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.1em;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  
+}
+main div.food:hover{
+    -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+}
+main a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 40px;
+    background-color: #2d3436;
+    background-image: linear-gradient(187deg, #2d3436 0%, #000000 74%);
+    height: 50px;
+}
+footer{
+    color: #ffffff  ;
+
+    font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 40px;
+}
+footer p{
+    font-size: 1.2em;
+   
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    font-weight: bolder;
+}
+@media (max-width: 600px){
+    main{
+        max-width: 200px;
+    }
+    nav{
+        width: 300px;
+    }
+    footer .Foot{
+        display: none;
+    }
+}
